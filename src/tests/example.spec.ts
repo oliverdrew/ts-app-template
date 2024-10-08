@@ -1,7 +1,6 @@
 import { isEven } from '../example';
 
 describe('isEven', () => {
-
   it('should return true for even numbers', () => {
     const evenNumber = 10;
 
@@ -25,5 +24,4 @@ describe('isEven', () => {
 
     expect(result).toBe(true);
   });
-
 });
