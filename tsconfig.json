@@ -30,6 +30,7 @@
     "coverage/**",
     "src/tests/**",
     "node_modules",
+    "CHANGELOG.md",
     "*.config.js",
     "*.config.mjs",
     "*.config.ts"
