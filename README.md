@@ -11,7 +11,7 @@ Always open to learning new things, and using new libraries that achieve things 
 There are two workflows configured within this template:
 
 * `release.yml` - uses semantic release to build and deploy new versions of this template (and uses of the template) to GitHub
-* `test.yml` - runs the unit tests and validates code styling and formatting
+* `sanity.yml` - runs the unit tests and validates code styling and formatting
 
 ## Settings
 
