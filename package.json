@@ -1,6 +1,6 @@
 {
   "name": "@oliverdrew/ts-app-template",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.3",
   "description": "Template for typescript applications",
   "main": "index.js",
   "private": true,
