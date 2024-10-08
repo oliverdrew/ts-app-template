@@ -61,7 +61,7 @@ The commit header (type + scope + description) should be a maximum of 72 charact
 ### Breaking Changes
 
 > [!IMPORTANT]  
-> If a commit introduces a breaking change, 'BREAKING CHANGE: `<description>`' MUST be included in the footer
+> If a commit introduces a breaking change, 'BREAKING CHANGE: `<description>`' MUST be included in the footer of the commit message
 
 Example:
 
