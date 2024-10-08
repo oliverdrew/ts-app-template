@@ -1,12 +1,21 @@
 {
-  "name": "ts-app-template",
-  "version": "0.0.1",
+  "name": "@oliverdrew/ts-app-template",
+  "version": "0.0.0-semantic-release",
   "description": "Template for typescript applications",
   "main": "index.js",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
+    "clean:dist": "rimraf dist",
+    "clean:coverage": "rimraf coverage",
+    "clean": "npm run clean:dist && npm run clean:coverage",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "npm run build && npm pack"
   },
   "repository": {
     "type": "git",
@@ -32,11 +41,20 @@
     "@types/jest": "^29.5.13",
     "@types/node": "^22.7.5",
     "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.10.0",
     "husky": "^9.1.6",
     "jest": "^29.7.0",
+    "rimraf": "^6.0.1",
+    "semantic-release": "^24.1.2",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.8.1"
-  }
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "package.json"
+  ]
 }

@@ -23,6 +23,15 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "outDir": "dist",
-    "declaration": true
-  }
+    "declaration": true,
+    "removeComments": true
+  },
+  "exclude": [
+    "coverage/**",
+    "src/tests/**",
+    "node_modules",
+    "*.config.js",
+    "*.config.mjs",
+    "*.config.ts"
+  ]
 }
