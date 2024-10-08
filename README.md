@@ -6,6 +6,13 @@ I am sure it could be loads better so pull requests are always appreciated and w
 
 Always open to learning new things, and using new libraries that achieve things in a better way so changes with good discussion in PRs also appreciated.
 
+## GitHub Actions
+
+There are two workflows configured within this template:
+
+* `release.yml` - uses semantic release to build and deploy new versions of this template (and uses of the template) to GitHub
+* `test.yml` - runs the unit tests and validates code styling and formatting
+
 ## Settings
 
 ### Code Style & Formatting
