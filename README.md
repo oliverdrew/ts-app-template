@@ -10,6 +10,7 @@ Always open to learning new things, and using new libraries that achieve things 
 
 There are two workflows configured within this template:
 
+* `auto-merge.yml` - automatically approves and merges PRs created during the release workflow via semantic-release
 * `release.yml` - uses semantic release to build and deploy new versions of this template (and uses of the template) to GitHub
 * `sanity.yml` - runs the unit tests and validates code styling and formatting
 
