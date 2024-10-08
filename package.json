@@ -1,0 +1,23 @@
+{
+  "name": "ts-app-template",
+  "version": "0.0.1",
+  "description": "Template for typescript applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverdrew/ts-app-template.git"
+  },
+  "keywords": [
+    "template",
+    "typescript"
+  ],
+  "author": "Oliver Drew <me@oliverdrew.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverdrew/ts-app-template/issues"
+  },
+  "homepage": "https://github.com/oliverdrew/ts-app-template#readme"
+}
