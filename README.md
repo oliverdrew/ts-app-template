@@ -6,6 +6,14 @@ I am sure it could be loads better so pull requests are always appreciated and w
 
 Always open to learning new things, and using new libraries that achieve things in a better way so changes with good discussion in PRs also appreciated.
 
+## Setup
+
+In order to facilitate the automated creation of GitHub releases that include version updates to package.json, you will need to set up a repository deployment key.
+
+The instructions for this are [documented here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys).
+
+When you have generated your SSH key, add the *public key* to "Deploy Keys" in your repository settings.  Following this create an Actions secret (`DEPLOY_TOKEN`) that contains the private portion of the key.  This pair should be unique to each indivdiual repository.
+
 ## GitHub Actions
 
 There are two workflows configured within this template:
