@@ -23,7 +23,7 @@ jobs:
       - name: Set up SSH for deploy key
         uses: webfactory/ssh-agent@v0.5.3  # This action sets up the SSH agent for GitHub Actions
         with:
-          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+          ssh-private-key: ${{ secrets.DEPLOY_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
